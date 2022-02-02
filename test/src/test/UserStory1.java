@@ -26,8 +26,8 @@ Verify 'Download now' button is visible
 		WebDriver driver = d.ChromeWebDriverFunction();
 		
 		
-		//	Verify that a salary figure is visible
-		//' When I visit https://www.intellihr.com
+		
+		// When I visit https://www.intellihr.com
 		
 		driver.get("https://www.intellihr.com");
 		driver.manage().window().maximize();
