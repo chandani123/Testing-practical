@@ -17,7 +17,8 @@ public class UserStory1 {
 		WebDriver driver = d.ChromeWebDriverFunction();
 		
 		
-		// When I visit https://www.intellihr.com
+		//	Verify that a salary figure is visible
+		//' When I visit https://www.intellihr.com
 		
 		driver.get("https://www.intellihr.com");
 		driver.manage().window().maximize();
