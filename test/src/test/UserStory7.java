@@ -1,6 +1,4 @@
 package test;
-
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -11,7 +9,15 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class UserStory7 {
 
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
+		/*
+		 As an authenticated user <Manager>
+When I visit my profile page (left-hand side)
+Then I should see a 'Job' tab
+When I click on that tab
+Then I should see 'Remuneration Schedule' section
+Then I select "Show Content" button within the 'Remuneration Schedule' section
+Verify that a salary figure is visible
+		 */
 		
 		Basic d = new Basic();
 		WebDriver driver = d.ChromeWebDriverFunction();

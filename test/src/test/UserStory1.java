@@ -1,11 +1,8 @@
 package test;
-
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
 
 public class UserStory1 {
 
@@ -13,6 +10,18 @@ public class UserStory1 {
 		// TODO Auto-generated method stub
 		
 
+		/*
+As an anonymous User
+When I visit https://www.intellihr.com
+Then I should see the intelliHR public homepage
+Verify intelliHR logo is visible
+When I scroll to the bottom and select 'Case Studies'
+Then I should see multiple Case Studies
+When I select 'Fujitsu General'
+Then I should see a Case Study for Fujitsu
+Verify 'Download now' button is visible
+		 */
+		
 		Basic d = new Basic();
 		WebDriver driver = d.ChromeWebDriverFunction();
 		

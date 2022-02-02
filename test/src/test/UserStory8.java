@@ -1,5 +1,4 @@
 package test;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -11,10 +10,20 @@ public class UserStory8 {
 
 	@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
+		
+		/*
+		 As an authenticated user <Admin>
+When I select People link from the left-hand side
+Then I should see People page
+When I input "Lyanna" into the Search field
+Then I should I see "Lyanna" as the only result
+When I select "Lyanna"
+Then I should see Lyanna's Profile Page
 
-		
-		
+Then I select 'Job' tab
+Then I should 'Reporting' section
+Verify that Thomas Mason is shown under 'Direct Reports'
+		 */
 		
 		Basic d = new Basic();
 		WebDriver driver = d.ChromeWebDriverFunction();
